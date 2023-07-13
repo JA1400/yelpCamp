@@ -33,6 +33,7 @@ module.exports.validateCampground = (req, res, next) => {
     }
 }
 
+
 module.exports.isAuthor = async (req, res, next) => {
     const { id } = req.params;
     const campground = await Campground.findById(id);
