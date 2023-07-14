@@ -1,7 +1,7 @@
-/* if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== 'production') {
     //NODE_ENV is either set to development or production!
     require('dotenv').config();
-} */
+}
 //how we access env values
 //if we use GIT, .env files are ignored
 
